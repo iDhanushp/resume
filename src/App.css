@@ -1,0 +1,77 @@
+
+.resume-container {
+  font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+  margin: 32px auto;
+  padding: 32px 28px;
+  max-width: 700px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #f9f9f9 80%, #e3e6f3 100%);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08), 0 1.5px 6px rgba(0,0,0,0.04);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 2.8em;
+  color: #2d3a4a;
+  letter-spacing: 1px;
+}
+.header p {
+  margin: 8px 0 0 0;
+  font-size: 1.15em;
+  color: #5a5a5a;
+}
+
+section {
+  margin-bottom: 28px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+  padding: 18px 20px;
+}
+section h2 {
+  border-bottom: 1.5px solid #e3e6f3;
+  padding-bottom: 6px;
+  font-size: 1.35em;
+  color: #3a4a5a;
+  margin-bottom: 12px;
+}
+section ul {
+  list-style-type: disc;
+  padding-left: 24px;
+}
+section ul li {
+  margin-bottom: 8px;
+  line-height: 1.7;
+  color: #444;
+}
+
+.skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding-left: 0;
+  list-style: none;
+}
+.skills ul li {
+  background: #e3e6f3;
+  color: #2d3a4a;
+  border-radius: 6px;
+  padding: 6px 14px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.certifications ul li {
+  font-style: italic;
+  color: #3a4a5a;
+}
+
+.contact p {
+  font-size: 1.1em;
+  color: #2d3a4a;
+  margin-top: 6px;
+}
